@@ -1,1 +1,24 @@
-<!-- firstPage.xml -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background_image"
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Helló, Üdvözöllek!"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tovább"
+        android:layout_below="@id/messageTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>
