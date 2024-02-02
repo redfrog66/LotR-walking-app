@@ -1,5 +1,6 @@
 
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -15,7 +16,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ASD"  // TODO: MAIN TITLE
+        android:text="ASD"  <!-- TODO: MAIN TITLE --> 
         />
 
     <RelativeLayout
@@ -25,8 +26,12 @@
         android:clipToPadding="false">
 
         <Button
+            android:id="@+id/button"
             android:layout_width="wrap_content"
-            android:layout_width="wrap_content" />
+            android:layout_width="wrap_content" 
+            android:text="Button Text"
+            <!-- TODO: BUTTON TEXT -->
+            /> 
 
     </RelativeLayout>
 
